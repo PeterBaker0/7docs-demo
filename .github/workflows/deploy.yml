@@ -31,6 +31,6 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: 7-docs-demo-react
+          project: 7docs
           entrypoint: server.ts
           import-map: import_map.json
